@@ -7,10 +7,20 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-  <view>
-    <button class="user-btn">{{btn}}</button>
-  </view>
+
+    <!-- 图片展示 -->
+    <view hidden='hidden'>
+     <image src='../image/002.jpg'></image>
+     <button bindtap="img">显示图片</button>
+    </view>
+
+    <!-- 文字展示 -->
+    <view class="usermotto">
+     <text class="user-motto">{{motto}}</text>
+    </view>
+
+    <!-- 按钮 -->
+    <view>{{ btn }}</view>
+    <button bindtap="clickMe">点击我</button>
+  
 </view>

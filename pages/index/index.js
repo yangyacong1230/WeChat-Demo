@@ -3,9 +3,12 @@
 const app = getApp()
 
 Page({
+  clickMe(){
+    this.setData({btn: '对酒当歌，人生几何'})
+  },
+
   data: {
     motto: 'Hello World',
-    btn:'点击',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
