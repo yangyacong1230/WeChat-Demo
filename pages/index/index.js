@@ -3,8 +3,12 @@
 const app = getApp()
 
 Page({
+
+
   clickMe(){
-    this.setData({btn: '对酒当歌，人生几何'})
+    this.setData({
+      btn: '对酒当歌，人生几何'
+      })
   },
 
   data: {
@@ -13,7 +17,7 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
-  //事件处理函数
+ //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
       url: '../logs/logs'

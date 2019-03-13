@@ -1,0 +1,13 @@
+<view class="page-body">
+<view class="page-section">
+  <view class="page-section-title">movable-view区域小于movable-area</view>
+  <movable-area>
+     <movable-view x="{{x}}" y="{{y}}" direction="all">test</movable-view>
+     <movable-view x="{{x}}" y="{{y}}" direction="all">test2</movable-view>
+  </movable-area>
+
+  
+</view>
+
+
+</view>

@@ -22,5 +22,7 @@
     <!-- 按钮 -->
     <view>{{ btn }}</view>
     <button bindtap="clickMe">点击我</button>
-  
+
 </view>
+
+<progress percent="50" show-info />
