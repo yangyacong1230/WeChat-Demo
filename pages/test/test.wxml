@@ -1,12 +1,27 @@
 <view class="page-body">
 <view class="page-section">
   <view class="page-section-title">movable-view区域小于movable-area</view>
-  <movable-area>
-     <movable-view x="{{x}}" y="{{y}}" direction="all">test</movable-view>
-     <movable-view x="{{x}}" y="{{y}}" direction="all">test2</movable-view>
-  </movable-area>
+ <!-- 搜索框 -->
+ <view class="page-select">
+     <movable-area class="page-first-aa">{{ btn }}
+         <input type="text" placeholder="请输入内容"></input>
+     </movable-area> 
+     <!-- 按钮 -->
+     <button class="page-select-btn" bindtap="clickMe">点击我</button>
+ </view>
+ 
+  <view class="page-first">
+     <movable-area class="page-first-bb">
+     
+     </movable-area> 
+  </view>
 
-  
+  <view class="page-show">
+      <movable-area class="page-show-aa">
+     
+      </movable-area> 
+  </view>
+
 </view>
 
 
