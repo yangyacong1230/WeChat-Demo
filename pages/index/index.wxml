@@ -21,8 +21,12 @@
 
     <!-- 按钮 -->
     <view>{{ btn }}</view>
-    <button bindtap="clickMe">点击我</button>
+    <button bindtap="clickMe">点击这里</button>
+
+    <!-- 页面跳转 -->
+    <navigator url='../test/test'>
+       <button>点击跳转</button>
+    </navigator>
 
 </view>
 
-<progress percent="50" show-info />

@@ -3,8 +3,6 @@
 const app = getApp()
 
 Page({
-
-
   clickMe(){
     this.setData({
       btn: '对酒当歌，人生几何'
