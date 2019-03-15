@@ -8,12 +8,6 @@
     </block>
   </view>
 
-    <!-- 图片展示 -->
-    <view hidden='hidden'>
-     <image src='../image/002.jpg'></image>
-     <button bindtap="img">显示图片</button>
-    </view>
-
     <!-- 文字展示 -->
     <view class="usermotto">
      <text class="user-motto">{{motto}}</text>
@@ -24,9 +18,11 @@
     <button bindtap="clickMe">点击这里</button>
 
     <!-- 页面跳转 -->
-    <navigator url='../test/test'>
-       <button>点击跳转</button>
-    </navigator>
+<view class="container">
+  <navigator url="/pages/search/search">
+    <button>搜索</button>
+  </navigator>
+</view>
 
 </view>
 
