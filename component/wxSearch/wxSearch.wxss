@@ -34,14 +34,26 @@
 .li_list_search text{
   font-size:30rpx;
 }
-.icon-waiting{
-  width:29rpx;height:29rpx;
-}
+
+/* .icon-waiting{
+  position: relative;
+  padding-right: 2rpx;
+  width:15rpx;
+  height:15rpx;
+} */
+
 .icon-cancel{
-  padding-right:3rpx;
-  width:2px;
-  height:2px;
+  position: absolute;
+  padding-left: 660rpx;
+  width:15px;
+  height:15px;
 }
+
+.icon-cancel_1{
+  width:15px;
+  height:15px;
+}
+
 .icon-down{
   width: 30rpx;
 	height: 19rpx;
