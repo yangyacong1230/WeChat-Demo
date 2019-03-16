@@ -1,0 +1,11 @@
+<!--pages/classify/classify.wxml-->
+<view class="container">
+     <text>这是分类页</text>
+
+    <!-- 页面跳转 -->
+    <view class="container">
+      <navigator url="/pages/search/search">
+        <button>搜索</button>
+      </navigator>
+    </view>
+</view>

@@ -17,12 +17,5 @@
     <view>{{ btn }}</view>
     <button bindtap="clickMe">点击这里</button>
 
-    <!-- 页面跳转 -->
-<view class="container">
-  <navigator url="/pages/search/search">
-    <button>搜索</button>
-  </navigator>
-</view>
-
 </view>
 
