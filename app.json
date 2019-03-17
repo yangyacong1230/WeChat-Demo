@@ -18,7 +18,7 @@
     "pagePath": "pages/test/test",
     "text": "首页",
     "iconPath": "assets/images/home-no.png",
-    "selectedIconPath": "assets/images/home-yes2.png"
+    "selectedIconPath": "assets/images/home-yes.png"
   },
   {
     "pagePath": "pages/classify/classify",
